@@ -1,0 +1,178 @@
+@font-face {
+    font-family: starborn;
+    src: url(../assets/fonts/Starborn.ttf);
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 1px;
+    animation: FunShows 5s 3s infinite;
+}
+
+body {
+    margin: 0;
+    /* feel free to change/customize this gradient and font */
+    background: linear-gradient(135deg, #e99fa3 0%, #cd89da 100%);
+    /* feel free to change/customize font */
+    font-family: starborn;
+    color: rgb(252, 221, 236);
+    text-align: center;
+}
+
+.flex-container {
+    /* Make this into a flexbox using display: flex */
+    /* Use flexbox properties to stack your tiles vertically and center them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-tile {
+    /* Make this into a flexbox using display: flex */
+    /* Use flexbox properties to stack elements in your tiles vertically and center them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* setting the width for each tile */
+    width: 40%;
+
+    /* spacing tiles */
+    margin: 5%;
+    padding: 20px;
+
+    /* background color for tile, feel free to change */
+    background-color: rgb(247, 182, 212);
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(97, 30, 106);
+}
+
+.flex-tile:hover{
+    background-color: rgb(208, 161, 255);
+    transition: 1s
+}
+
+.summercampisland{
+    width: 50%;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+.hilda{
+    width: 50%;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+.beeandpuppycat{
+    width: 50%;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+.btn01{
+    display: block;
+    padding: 15px 30px;
+    margin 5% auto;
+    width: 300px;
+    border: 3px dotted rgb(252, 221, 236);
+    border-radius: 10px;
+    color: rgb(252, 221, 236);
+    background:  rgb(97, 30, 106);
+    font-family: starborn;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn01:hover{
+    background: rgb(252, 221, 236);
+    color: rgb(97, 30, 106);
+    border: 3px solid rgb(97, 30, 106);
+    border-style: solid;
+    font-size: 24px;
+}
+
+.btn01:active{
+    transform: translate(0px, -10px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn02{
+    display: block;
+    padding: 15px 30px;
+    margin 5% auto;
+    width: 300px;
+    border: 3px dotted rgb(252, 221, 236);
+    border-radius: 10px;
+    color: rgb(252, 221, 236);
+    background:  rgb(97, 30, 106);
+    font-family: starborn;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn02:hover{
+    background: rgb(252, 221, 236);
+    color: rgb(97, 30, 106);
+    border: 3px solid rgb(97, 30, 106);
+    border-style: solid;
+    font-size: 24px;
+}
+
+.btn02:active{
+    transform: translate(0px, -10px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn03{
+    display: block;
+    padding: 15px 30px;
+    margin 5% auto;
+    width: 300px;
+    border: 3px dotted rgb(252, 221, 236);
+    border-radius: 10px;
+    color: rgb(252, 221, 236);
+    background:  rgb(97, 30, 106);
+    font-family: starborn;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn03:hover{
+    background: rgb(252, 221, 236);
+    color: rgb(97, 30, 106);
+    border: 3px solid rgb(97, 30, 106);
+    border-style: solid;
+    font-size: 24px;
+}
+
+.btn03:active{
+    transform: translate(0px, -10px);
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes FunShows{
+    0%{
+        color:rgb(252, 221, 236);
+    }
+
+    50%{
+        color:rgb(187, 129, 226);
+    }
+
+    75%{
+        color:rgb(220, 129, 205);
+    }
+
+    100%{
+        color: rgb(252, 221, 236);
+    }
